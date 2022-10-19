@@ -1,0 +1,4 @@
+Listado de requerimientos
+
+llamada con el cliente del 19 de octubre de 2029
+-corregir el borde 

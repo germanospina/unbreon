@@ -1,0 +1,57 @@
+body{
+    font-family: 'Fasthand', cursive;
+    margin: 0 ;
+    background-image: url(https://images7.alphacoders.com/925/thumbbig-925014.webp);
+    
+}
+body{
+    background-color:grey;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color:black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+
+}
+h1{
+    color: aliceblue;
+}
+p{
+    color: azure;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;  
+}
+nav a:hover{
+    color: red;
+
+}
+@media(max-whith : 700px){
+
+  header{
+    flex-direction: column;
+  }
+  nav{
+    padding: 10px 0px;
+  }
+
+}
